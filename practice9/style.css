@@ -1,0 +1,52 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 5;   /*you can make it as infinite also*/
+    animation-direction: alternate; 
+   /* animation:coloranm 1s ease-in 1s infinite alternate; */
+                                        /*in single line name, duration, timing fx, delay, iteration count,
+                                                                                             direction */
+}                                     /*....animation:myName 2s linear 3s infinite normal...*/
+
+@keyframes colorAnimate{
+    from{
+        background-color: aquamarine;
+        left: 0px;
+        color: red;
+    }
+    to {
+        background-color: red;
+        left: 300px;
+        color: black;
+    }
+
+}
+/*
+
+@keyframes coloranm{
+
+    0%{
+        left: 0px;
+        background-color: yellow;
+    }
+
+    50%{
+        background-color: blue;
+    }
+    100%{
+        left: 200px;
+        background-color: red;
+        color:white
+    }
+}   */
+
+

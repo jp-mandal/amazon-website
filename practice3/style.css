@@ -1,0 +1,33 @@
+#div1{
+    background-color: pink;
+    display: inline;            /*This helps to take text to take needed space not the whole screen*/
+}
+
+button{
+    display: block;
+}
+
+div{
+
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;   /*if we write only....display:inline.....then margin and passing is ignored....if we write....display:inline-block...margin and padding available.*/
+    }
+
+
+#box2{
+    display: none;  /*This will remove box2 drom web page.*/
+}
+
+#box3{ 
+    visibility: hidden; /*This will keep space for block 2 but box is hidden*/
+}
+
+#box5{
+    background-color: rgba(255,0,0,0.5);  /*here a means alpha, alpha is from 0-1 and it means its opacity can be set.*/ 
+}
+#box6{
+    background-color: rgba(255,0,0,1);
+}

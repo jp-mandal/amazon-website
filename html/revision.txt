@@ -1,0 +1,19 @@
+<!--css (sascading style sheet) language that describes the style of website.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS level 1</title>
+    <style>
+        h2{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: rgb(179, 50, 50);">Hello From Apna College!</h1>  <!--known as inline style-->
+
+    <h2>Hello from apna college!</h2>
+</body>
+</html>

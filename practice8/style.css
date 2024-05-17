@@ -1,0 +1,45 @@
+#a1{
+height: 100px;
+width: 100px;
+background-color: blue;
+border: 2px thick red;
+
+transition-property: all;
+transition-duration: 5s;               /* ..............transistion:property name duration timing-function delay....*/
+transition-timing-function:ease-in;   /* in a line .....transition:font-size 2s ease-in 0.2s;.....*/
+transition-delay: 1s;               /*time for all effect to begin*/
+transform: translate(30px,25px);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#a1:hover{
+    background-color: yellow;
+    color: blue;
+    font-size: 20px;
+    rotate: 45deg;                  /*can also be written as transform:rotate:(45deg);...*/
+    scale: 2;                       /*can also be written as transform:scale: 2;  */
+}
+
+#a1:active{
+    background-color: green;
+    color: black;
+    font-size: 15px;
+    rotate: z 90deg;
+    scale: (2,1);         /*scaling effict in terms of width and height.*/
+}
+
+#a2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    transition: all 2s ease-in;
+}
+#a2:hover{
+
+    transform:skew(90deg);
+    background-color: black;
+}

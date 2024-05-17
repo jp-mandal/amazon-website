@@ -1,0 +1,25 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+
+@media (width:600px) {
+
+    #a1{
+        background-color: red;
+    }
+    
+}
+
+@media (max-width:600px){
+    #a2{
+        background-color: yellow;
+    }
+}
+
+@media (min-width:200px) and (max-width:500px){
+    #a3{
+        background-color: blue;
+    }
+}

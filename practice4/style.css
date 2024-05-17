@@ -1,0 +1,59 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+#box1{
+
+position: static;
+background-image:url("owl.jpg");
+background-size: cover;
+color: white ;
+
+}
+
+#box2{
+    position:relative;        /*position changes with respect to it's original position*/
+    top:20px;
+    left:20px;
+    background-color: green;
+    z-index: 2;                  /*this will set whic box will be above when overlapped...defult
+                                 value is 0...for z-index to be ...-1,0,1,2...above -1 value box,0 value box will be shown and aso on.*/
+}
+
+#box3{
+
+    position: absolute;       /*position closest and should be not be static...like body is the ansistor here*/
+    top:200px;
+    left: 900px;
+    background-color: yellow;
+
+}
+
+#box4{
+    
+    position: fixed;     /*relative to browser...means this will not move even scrolling the browser
+                            this property is used for nav bar*/
+
+    color: white;
+    background-color: black;
+    top: 0px;
+    left: 10px;
+    /*right: 10px;
+    bottom: 10px;
+    width: 100vw;*/
+
+
+}
+
+#box5{
+    position: sticky;    /*position gets fixed when it reaches to given position before that it scrolls*/
+    top: 0px;
+    background-color: purple;
+}
+
+body{
+    background-image: url("OIP.jpeg");
+    background-size: cover;
+}

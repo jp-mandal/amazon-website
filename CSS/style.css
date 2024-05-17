@@ -1,0 +1,79 @@
+/* foreground is content view and background is back view.
+hexadecimal color system:
+red=0-ff;
+green=0-ff;
+yellow=0-ff;
+
+combination: rgb(255,0,0)....for red color.
+
+in hexadecimal,
+
+combination of rgb is....color=#ff0000....for red color
+
+*/
+
+h1
+{
+    color:black;
+}
+h2{
+    color:#32a838 ;
+}
+
+p{
+    color: blueviolet;
+}
+
+button{
+    color: rgb(248, 248, 5);
+    background-color:green;
+}
+
+/* id selector....*/
+#heading1{
+
+    text-decoration: red underline;
+    color: black;
+}
+
+#heading3{
+
+    color: blue;
+}
+
+.myclass{
+color: black;
+}
+
+p{
+
+    text-align:center;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+a{
+text-decoration: none; /*This will remove defult underline from the link.*/
+}
+
+#h1{
+    text-align: start;
+    font-weight: 300;
+    font-size: larger;
+    font: family 20px;;
+}
+
+#h2{
+font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#h3{
+font-weight:900;
+font-size: 10px;
+}
+
+body{
+
+    background-color:rgb(206, 221, 206);
+}

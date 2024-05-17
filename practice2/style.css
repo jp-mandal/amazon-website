@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin:0;
+    color: red;
+}
+
+#navBar{
+    background-color: black;
+    height: 50px;
+
+    border-width: 5px;
+    border-color:aqua        ;
+    border-style: solid;
+
+
+}
+
+#logo{
+    color:#f08804;
+    font-size: 25px;
+}
+
+button{
+    background-color: #f08804;
+}
+
+a{
+    margin-right: 200px;        
+    text-decoration: none;
+
+}
+
+#div_em{
+
+    color: black;
+    padding: 12px 16px 18px 19px;
+    margin: 30px 20px 16px 20px;
+    background: red;
+    height: 100px;
+    width: 500px;
+    font-size: 2rem;       /*Here, font size is compared with font size of body element.*/
+}
+
+#div_em2{
+    color: black;
+    height: 10vh;     /*box height is 10% of full screen height*/
+    width: 50vw;      /*box width is 20% of full screen width*/
+    background-color: blueviolet;
+    font-size: 2em;                   /*Here, em means child div will have scalling effect of parent div font size.*/
+}
+
+
+          
